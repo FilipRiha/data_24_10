@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+
+
+html,
+body{
+    margin:0px;
+    height: 100%;
+}
+
+#wrapper{
+    display:flex;
+    gap: 10px;
+    justify-content: center;   
+    align-items: center; 
+    height: 100%;
+    overflow: auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 90px;
+    width: 90px;
+    border: 3px solid black;
+    cursor:pointer;
+    transition: .2s;
+
+}
+.box:hover{
+    transform: scale(1.4);
+
+}
+.red-box{
+    background-color: red;
+}
+.green-box{
+    background-color: green;
+}
+
+.blue-box{
+    background-color: blue;
+}
